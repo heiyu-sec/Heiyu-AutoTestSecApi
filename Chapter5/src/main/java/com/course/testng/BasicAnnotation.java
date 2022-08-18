@@ -32,4 +32,13 @@ public class BasicAnnotation {
     public void AfterClass(){
         System.out.println("这是在类在类运行之后运行的");
     }
+    @BeforeSuite
+    public void beforeSuite(){
+        System.out.println("beforesuite测试套件");
+    }
+    @AfterSuite
+    public void afterSuite(){
+        System.out.println("afterSuite测试套件");
+    }
+
 }
