@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: io.springfox:springfox-swagger2:${swagger.version}">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-swagger2/${swagger.version}/springfox-swagger2-${swagger.version}.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-swagger2/${swagger.version}/springfox-swagger2-${swagger.version}-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-swagger2/${swagger.version}/springfox-swagger2-${swagger.version}-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
