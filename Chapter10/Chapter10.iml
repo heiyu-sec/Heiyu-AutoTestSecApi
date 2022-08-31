@@ -55,8 +55,6 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-context:4.3.8.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:4.3.8.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:4.3.8.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: io.springfox:springfox-swagger2:${swagger.version}" level="project" />
-    <orderEntry type="library" name="Maven: io.springfox:springfox-swagger-ui:${swagger.version}" level="project" />
     <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.16.14" level="project" />
   </component>
 </module>
