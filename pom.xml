@@ -18,6 +18,7 @@
         <module>Chapter9</module>
         <module>Chapter10</module>
         <module>Chapter11</module>
+        <module>Chapter12</module>
     </modules>
     <build>
         <plugins>
