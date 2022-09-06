@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="用户管理系统测试套件" duration-ms="25998" started-at="2022-09-06T09:10:35Z" finished-at="2022-09-06T09:11:01Z">
+    <groups>
+      <group name="loginTrue">
+        <method signature="LoginTest.loginTrue()[pri:0, instance:com.course.cases.LoginTest@3f3afe78]" name="loginTrue" class="com.course.cases.LoginTest"/>
+      </group> <!-- loginTrue -->
+      <group name="loginFalse">
+        <method signature="LoginTest.loginFalse()[pri:0, instance:com.course.cases.LoginTest@3f3afe78]" name="loginFalse" class="com.course.cases.LoginTest"/>
+      </group> <!-- loginFalse -->
+    </groups>
+    <test name="用户管理系统测试用例" duration-ms="25998" started-at="2022-09-06T09:10:35Z" finished-at="2022-09-06T09:11:01Z">
+      <class name="com.course.cases.UpdateUserInfoTest">
+        <test-method status="PASS" signature="updateUserInfo()[pri:0, instance:com.course.cases.UpdateUserInfoTest@511baa65]" name="updateUserInfo" duration-ms="10052" depends-on-groups="loginTrue" started-at="2022-09-06T17:10:41Z" description="更改用户信息" finished-at="2022-09-06T17:10:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserInfo -->
+        <test-method status="PASS" signature="deleteUser()[pri:0, instance:com.course.cases.UpdateUserInfoTest@511baa65]" name="deleteUser" duration-ms="10060" depends-on-groups="loginTrue" started-at="2022-09-06T17:10:51Z" description="删除用户信息" finished-at="2022-09-06T17:11:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+      </class> <!-- com.course.cases.UpdateUserInfoTest -->
+      <class name="com.course.cases.LoginTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.course.cases.LoginTest@3f3afe78]" name="beforeTest" is-config="true" duration-ms="15" started-at="2022-09-06T17:10:35Z" description="测试准备工作，获取HttpClient对象" finished-at="2022-09-06T17:10:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="loginTrue()[pri:0, instance:com.course.cases.LoginTest@3f3afe78]" name="loginTrue" duration-ms="666" started-at="2022-09-06T17:10:35Z" description="用户登陆成功接口测试" finished-at="2022-09-06T17:10:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTrue -->
+        <test-method status="PASS" signature="loginFalse()[pri:0, instance:com.course.cases.LoginTest@3f3afe78]" name="loginFalse" duration-ms="41" started-at="2022-09-06T17:10:36Z" description="用户登陆失败接口测试" finished-at="2022-09-06T17:10:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFalse -->
+      </class> <!-- com.course.cases.LoginTest -->
+      <class name="com.course.cases.GetUserInfoTest">
+        <test-method status="PASS" signature="getUserInfo()[pri:0, instance:com.course.cases.GetUserInfoTest@39ba5a14]" name="getUserInfo" duration-ms="34" depends-on-groups="loginTrue" started-at="2022-09-06T17:10:41Z" description="获取userId为1的用户信息" finished-at="2022-09-06T17:10:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserInfo -->
+      </class> <!-- com.course.cases.GetUserInfoTest -->
+      <class name="com.course.cases.GetUserInfoListTest">
+        <test-method status="PASS" signature="getUserListInfo()[pri:0, instance:com.course.cases.GetUserInfoListTest@340f438e]" name="getUserListInfo" duration-ms="54" depends-on-groups="loginTrue" started-at="2022-09-06T17:11:01Z" description="获取性别为男的用户信息" finished-at="2022-09-06T17:11:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserListInfo -->
+      </class> <!-- com.course.cases.GetUserInfoListTest -->
+      <class name="com.course.cases.AddUserTest">
+        <test-method status="PASS" signature="addUser()[pri:0, instance:com.course.cases.AddUserTest@7f63425a]" name="addUser" duration-ms="5065" depends-on-groups="loginTrue" started-at="2022-09-06T17:10:36Z" description="添加用户接口测试" finished-at="2022-09-06T17:10:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUser -->
+      </class> <!-- com.course.cases.AddUserTest -->
+    </test> <!-- 用户管理系统测试用例 -->
+  </suite> <!-- 用户管理系统测试套件 -->
+</testng-results>
